@@ -1,0 +1,7 @@
+youtube:
+  image: youtube_podcast:ubuntu
+  volumes:
+    - ./app:/srv/youtube
+  ports:
+    - "80:80"
+  command: node server.js
