@@ -2,7 +2,7 @@ FROM ubuntu:trusty
 MAINTAINER YK Goon <ykgoon@gmail.com>
 
 # Pick the nearest mirror
-RUN sed "s/archive.ubuntu.com/my.archive.ubuntu.com/g" /etc/apt/sources.list
+RUN sed -i "s/archive.ubuntu.com/my.archive.ubuntu.com/g" /etc/apt/sources.list
 
 # Install pre-requisites
 RUN apt-get -yq update && apt-get -yq upgrade

@@ -1,17 +1,17 @@
-= YouTube Podcast Docker
+# YouTube Podcast Docker
 
 This project makes use of [YouTube-Audio-To-Podcast](https://github.com/danielpgross/yt-audio-to-podcast)
 to turn any given YouTube channel into downloadable audio file in RSS feed.
 
 It creates and runs a Docker container that has everything you need.
 
-== Required software
+## Required software
 
 - Docker
 - git
 - Docker Compose (optional)
 
-== How To Use
+## How To Use
 
 1. Run `00-build.sh`
   - It builds the Docker image with the necessary packages
